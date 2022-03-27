@@ -22,3 +22,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+# Vue_HRP-team_vue2_vuex
