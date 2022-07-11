@@ -1,17 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <h1>Vuex Section</h1>
+    <hr>
+    <app-result />
+    <hr>
+    <app-other />
+    <br>
+    <app-counter />
   </div>
 </template>
-
+// $event giá trị gửi lên từ components con
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppCounter from './components/Counter.vue'
+import AppResult from './components/Result.vue'
+import AppOther from './components/Other.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppCounter,
+    AppResult,
+    AppOther
   }
 }
 </script>
